@@ -1,7 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
+import Container from './components/Container'
+
+class App extends Component {
+  render() {
+    return (
+      <div className="Container">
+      <Container/>
+      </div>
+    )
+  }
+}
+
+
+/*
 class App extends Component {
   render() {
     return (
@@ -24,5 +38,5 @@ class App extends Component {
     );
   }
 }
-
+*/
 export default App;
